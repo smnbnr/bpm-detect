@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: skyblue;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#tap-button {
+  padding: 3rem;
+}

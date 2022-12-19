@@ -11,17 +11,50 @@ body {
 
 h1 {
   font-size: 2.5rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border: 1px solid white;
+}
+
+#center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 90vw;
 }
 
 #wrapper {
   display: flex;
   flex-direction: column;
-  background-color: skyblue;
   height: 100vh;
+
   align-items: center;
   justify-content: center;
+  background-image: url("https://images.pexels.com/photos/730656/pexels-photo-730656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
 }
 
 #tap-button {
-  padding: 3rem;
+  padding: 4rem;
+  cursor: pointer;
+  font-size: 3rem;
+  height: 30vh;
+}
+#reset {
+  padding: 1rem;
+  background-color: coral;
+  cursor: pointer;
+}
+#reset:hover {
+  background-color: brown;
+  color: white;
+}
+
+#result {
+  font-size: 2rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border: 1px solid white;
 }
